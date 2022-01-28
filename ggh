@@ -1,0 +1,13 @@
+<td valign="middle">
+            <?php
+            if ($row['id_kelas']=="10"){
+                echo "10";
+            }
+            elseif ($row['id_kelas']=="11") {
+                echo "11";
+            }
+            else{
+                echo "12";
+            }
+            $row['id_kelas'];
+            ?>
